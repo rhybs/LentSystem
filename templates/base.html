@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block h_content %}
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <title>借用系統</title>
+        {% endblock %}
+        <link href="{% static 'bootstrap-4.4.1-dist/css/bootstrap.css' %}" type="text/css" rel="stylesheet" />
+        <script src="{% static 'bootstrap-4.4.1-dist/js/bootstrap.js' %"></script>
+    </head>
+    <body>
+        {% block content %}
+        
+        {% endblock %}
+    </body>
+</html>
